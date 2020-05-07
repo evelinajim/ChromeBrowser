@@ -1,0 +1,25 @@
+{
+  "name": "Angry penguin",
+  "description": "Penguins",
+  "version": "1.0",
+  "permissions": [
+    "activeTab" 
+  ],
+  "icons": { "16": "images/icons/me_16.png",
+          "48": "images/icons/me_48.png",
+          "128": "images/icons/me_128.png" },
+		  
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Chrome Browser Extension Demo"
+  },
+  "web_accessible_resources": [
+	"images/me.jpg"
+ ],
+  "manifest_version": 2
+}
+
+
